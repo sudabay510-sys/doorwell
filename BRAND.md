@@ -1,7 +1,7 @@
 # Doorwell — Brand identity
 
 **Slug:** `doorwell` · **Tagline:** A month-by-month maintenance and turnover plan for small landlords.
-**Status:** Early access. Checkout not live; founding list only. No payments processed.
+**Status:** Live. Payments processed by Gumroad (Monthly or Quarterly).
 
 ## Positioning
 Self-managing owners of 1–10 rental units who find full property-management software too heavy.
@@ -43,15 +43,15 @@ Steady and practical, like a trusted building super. Plain words, no jargon, no 
 ## Logo
 `static/logo.svg` — monogram mark on a rounded tile in the primary accent. Minimum size 24px; clear space ≈ 25% of the mark height. Use on light backgrounds; on dark, keep the tile as-is.
 
-## Pricing (planned terms; not live)
-- **4-week setup** — $12 first 4 weeks, then $15 / 4 weeks unless cancelled
-- **12-week season** — $29 first 12 weeks, then $39 / 12 weeks unless cancelled
+## Pricing
+- **Monthly** — $15 / month. Renews automatically. Cancel anytime from your Gumroad library.
+- **Quarterly** — $39 every 3 months. Renews automatically. Cancel anytime from your Gumroad library.
 
 ## Do
 - Point to licensed pros for gas, electrical, and structural work.
 - Say ‘check your local rules’ wherever notice or deposits come up.
-- Show intro **and** renewal prices before any future charge.
-- Label the founding list as “no charge today”.
+- Show Monthly and Quarterly prices, plus the renewal sentence, before checkout.
+- Save the customer’s email before sending them to Gumroad.
 - Keep the disclaimer visible near every plan.
 
 ## Don’t

@@ -2,7 +2,7 @@
 
 A month-by-month maintenance and turnover plan for small landlords.
 
-Quiz → personalized plan preview → paywall (founding list, **no real payments**).
+Quiz → personalized plan preview → email capture → Gumroad checkout (Monthly or Quarterly). Payments processed by Gumroad. Renews automatically. Cancel anytime from your Gumroad library.
 
 ## Run locally
 ```bash
