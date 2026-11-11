@@ -106,7 +106,7 @@ BRAND = {
     "checkout_url": "https://solvfix.gumroad.com/l/iouqzv",
     "disclaimer_short": "Maintenance planning only. Not legal, tax, or inspection advice. Landlord-tenant rules vary — check yours.",
     "disclaimer_long": "Doorwell provides general rental maintenance planning checklists. It is not legal advice and does not interpret landlord-tenant, habitability, notice, deposit, or fair-housing laws, which vary by state and city — consult official sources or a licensed attorney. Use licensed professionals for gas, electrical, structural, and safety work. Payments are processed by Gumroad, not on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap",
     "fonts": ("Archivo", "Public Sans"),
     "questions": Q, "generate_plan": plan,
     "voice": "Steady and practical, like a trusted building super. Plain words, no jargon, no legal opinions.",

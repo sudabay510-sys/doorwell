@@ -1,0 +1,32 @@
+/* Doorwell identity layer, Nov 2026 refresh: Utility logbook and key tag. Loaded after brand.css; visual only. */
+:root{--bg:#EEECE7;--bg-alt:#E3E0D8;--card:#FFFFFF;--ink:#1C2320;--muted:#4F5752;--line:#BDB9AE;--accent:#A8361C;--accent-2:#8A2B15;--on-accent:#FFFFFF;--hi:#F2C230;--radius:4px;--focus:#234D3E;
+--font-display:'Barlow Condensed', 'Arial Narrow', sans-serif;--font-body:'Public Sans', system-ui, sans-serif;--tracking:0.01em;--cta-band-bg:#234D3E;--cta-band-ink:#FFFFFF;--cta-band-btn:#F2C230;--cta-band-btn-ink:#1C2320;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2,h3,.btn,.eyebrow,.logo span{text-transform:uppercase}
+h1{font-size:clamp(2.6rem,6vw,4.8rem);font-weight:800;line-height:.95;letter-spacing:.005em}h2{font-weight:800}
+.site-header{background:var(--bg);border-bottom:0;box-shadow:0 6px 0 -0px transparent}
+.site-header::after{content:"";display:block;height:8px;background:repeating-linear-gradient(-45deg,#F2C230 0 12px,#1C2320 12px 24px)}
+.hero{background:linear-gradient(90deg,rgba(28,35,32,.06) 1px,transparent 1px) 0 0/calc(100%/12) 100%,var(--bg)}
+.hero-card,.plan-section,.price-card,.feature,.pill-card,.steps li,.journey-card,.faq-item{border:2px solid var(--ink);border-radius:4px;box-shadow:none}
+.hero-card::after{content:"CHECKED";position:absolute;right:1rem;bottom:1rem;border:3px solid var(--accent);color:var(--accent);font:800 1rem 'Barlow Condensed',sans-serif;letter-spacing:.12em;padding:.15rem .6rem;transform:rotate(-8deg);border-radius:4px}
+.dot{border-radius:2px;width:.9rem;height:.9rem;margin-top:.25rem;border:2px solid var(--ink);background:#F2C230}
+.choice{border:2px solid var(--ink);border-radius:4px}
+.choice input{border-radius:0}
+.choice:has(input:checked){background:#FFF4CC;box-shadow:none;border-color:var(--ink)}
+.progress{height:.75rem;border:2px solid var(--ink);border-radius:2px;background:var(--card)}.progress-bar{background:#234D3E}
+.step-num,.journey-step{border-radius:6px 6px 6px 18px;background:#234D3E;color:#FFFFFF}
+.plan-section h3{border-bottom:2px solid var(--ink);padding-bottom:.4rem;font-size:1.35rem}
+.lock-banner{border:2px dashed var(--ink);background:#FFF4CC;border-radius:4px}
+.btn{border-radius:4px;letter-spacing:.06em;font-family:var(--font-display);font-size:1.05rem}
+.safety{background:#FFF4CC;border-color:var(--ink);border-left-color:var(--accent)}
