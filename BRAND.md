@@ -59,3 +59,24 @@ Steady and practical, like a trusted building super. Plain words, no jargon, no 
 - Discuss tenant screening in ways that could raise fair-housing issues.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Utility logbook and key tag. A sturdy landlord’s logbook: condensed stencil type, a 12-month grid, rubber stamps, a clipboard quiz, and a key-tag result.
+- **Type:** Barlow Condensed (display) / Public Sans (body)
+- **Voice:** A handy neighbor with a good logbook: plain, preventive, never alarmist.
+- **Persona (design assumption, not research):** Greg, accidental landlord with a duplex (assumption): Rents out his old home plus one side of a duplex. Handles small repairs himself.
+
+| Color | Hex |
+|---|---|
+| Concrete | `#EEECE7` |
+| Soot | `#1C2320` |
+| Brick | `#A8361C` |
+| Forest | `#234D3E` |
+| Safety yellow | `#F2C230` |
+| Season tint | `#FFF4CC` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/doorwell/brand.html`.
