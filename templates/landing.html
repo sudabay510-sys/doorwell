@@ -2,10 +2,9 @@
 {% block title %}{{ brand.name }} — {{ brand.tagline }}{% endblock %}
 {% block body_class %}page-landing{% endblock %}
 {% block content %}
-<section class="hero">
+<section class="hero ly-hero">
   <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">{{ brand.eyebrow }}</p>
+    <div class="hero-copy"><p class="eyebrow">{{ brand.eyebrow }}</p>
       <h1>{{ brand.hero_title }}</h1>
       <p class="lede">{{ brand.hero_lede }}</p>
       <div class="hero-actions">
@@ -15,22 +14,28 @@
       <p class="tiny muted">{{ brand.honesty_line }}</p>
       {% if brand.get('safety_note') %}
 <aside class="safety" role="note" aria-label="Safety note"><strong>{{ brand.safety_title or "Important" }}:</strong> {{ brand.safety_note }}</aside>
-{% endif %}
+{% endif %}</div>
+    <div class="dw-tag" aria-label="Sample plan peek">
+      <span class="dw-hole" aria-hidden="true"></span>
+      <p class="card-label">Sample plan peek</p>
+      <ul class="peek-list">{% for b in brand.sample_peek %}<li><span class="dot"></span>{{ b }}</li>{% endfor %}</ul>
+      <p class="card-fade">Full plan unlocks after your quiz</p>
     </div>
-    <div class="hero-card" aria-hidden="true">
-      <div class="card-label">Sample plan peek</div>
-      <ul class="peek-list">
-        {% for b in brand.sample_peek %}
-        <li><span class="dot"></span>{{ b }}</li>
-        {% endfor %}
-      </ul>
-      <div class="card-fade">Full plan unlocks after your quiz</div>
-    </div>
+  </div>
+</section>
+<section class="section dw-year-s" aria-labelledby="dwy-h">
+  <div class="wrap">
+    <p class="eyebrow">Example logbook year</p>
+    <h2 id="dwy-h">Twelve months, one page</h2>
+    <ol class="dw-year">
+      <li><b>JAN</b>Smoke + CO test</li><li><b>FEB</b>Filter swap</li><li class="hi"><b>MAR</b>Gutters + roof look</li><li><b>APR</b>Renewal notices</li><li class="hi"><b>MAY</b>AC service</li><li><b>JUN</b>Exterior walk</li><li><b>JUL</b>Smoke + CO test</li><li><b>AUG</b>Filter swap</li><li class="hi"><b>SEP</b>Heat check</li><li class="hi"><b>OCT</b>Freeze prep</li><li><b>NOV</b>Vendor list update</li><li><b>DEC</b>Year review</li>
+    </ol>
+    <p class="tiny muted">Illustration. Your calendar shifts seasonal tasks to your climate. Not legal advice.</p>
   </div>
 </section>
 
 
-<section class="section journey" id="journey" aria-labelledby="journey-h">
+<section class="section journey dw-log" id="journey" aria-labelledby="journey-h">
   <div class="wrap">
     <p class="eyebrow">Your journey</p>
     <h2 id="journey-h">{{ brand.journey_title or "Where it usually breaks — and what your plan does" }}</h2>

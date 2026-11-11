@@ -1,0 +1,24 @@
+/* doorwell layout compositions (phase 2). Loaded after identity.css. */
+.dw-tag{position:relative;background:var(--card);border:3px solid var(--ink);border-radius:18px 18px 18px 60px;padding:2.75rem 1.5rem 1.5rem}
+.dw-hole{position:absolute;top:1rem;left:1.25rem;width:1.1rem;height:1.1rem;border-radius:50%;border:3px solid var(--ink);background:var(--bg)}
+.dw-year{list-style:none;padding:0;margin:0 0 .75rem;display:grid;grid-template-columns:repeat(6,1fr);border:2px solid var(--ink);background:var(--card)}
+.dw-year li{padding:.7rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:5.5rem;font-size:.92rem}
+.dw-year li b{display:block;font:800 1.2rem var(--font-display);letter-spacing:.06em}
+.dw-year li.hi{background:#FFF4CC}
+.dw-log .journey-grid{display:block;border:2px solid var(--ink);background:var(--card)}
+.dw-log .journey-card{display:grid;grid-template-columns:3rem 1fr 1.3fr 1.3fr;gap:1rem;align-items:start;border:0;border-bottom:1px solid var(--line);border-radius:0;margin:0}
+.dw-log .journey-card h3{margin:0}.dw-log .journey-card p{margin:0}
+.dw-clip{width:120px;height:26px;margin:0 auto -.4rem;background:#1C2320;border-radius:6px 6px 0 0;position:relative;z-index:2}
+.page-quiz .quiz-shell .wrap.narrow{background:var(--card);border:3px solid var(--ink);border-radius:6px;padding:1.75rem 1.5rem}
+.dw-q{font:800 1rem var(--font-display);letter-spacing:.1em;margin:0 0 .5rem}
+.page-quiz .tiny.muted{display:none}
+.dw-head{display:grid;grid-template-columns:auto 1fr;gap:1.75rem;align-items:center;margin-bottom:1.5rem}
+.dw-keytag{width:120px;height:170px;background:#F2C230;border:3px solid var(--ink);border-radius:60px 60px 14px 14px;position:relative;display:grid;place-items:end center;padding-bottom:1.2rem}
+.dw-keytag::before{content:"";position:absolute;top:18px;left:50%;margin-left:-15px;width:30px;height:30px;border-radius:50%;border:3px solid var(--ink);background:var(--bg)}
+.dw-keytag span{font:800 1rem var(--font-display);letter-spacing:.08em;text-transform:uppercase;transform:rotate(-90deg) translateX(1.5rem)}
+.dw-entry{position:relative;padding-top:2.4rem}
+.dw-stamp{position:absolute;top:.6rem;right:.8rem;border:3px solid var(--accent);color:var(--accent);font:800 .8rem var(--font-display);letter-spacing:.14em;padding:.05rem .5rem;border-radius:4px;transform:rotate(-4deg)}
+.page-results .plan-preview,.page-results .plan-full{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.page-results .plan-preview>h2,.page-results .plan-full>h2,.page-results .plan-full>p{grid-column:1/-1}
+.dw-entry{margin:0}
+@media (max-width:860px){.dw-year{grid-template-columns:repeat(3,1fr)}.dw-log .journey-card{grid-template-columns:2.5rem 1fr}.dw-log .journey-card p{grid-column:2}.dw-head{grid-template-columns:1fr}.dw-keytag{width:80px;height:110px}.dw-keytag span{display:none}}
